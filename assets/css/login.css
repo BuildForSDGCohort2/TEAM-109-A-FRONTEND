@@ -69,16 +69,17 @@ input:focus {
     font-weight: bold;
     color: #ffffff;
     padding: none;
-    background-color: #0AB506;
+    background-color: #0a8d08;
 }
 
 .login input:hover {
-    background-color: #086d06;
+    background-color: #086e06;
     
 }
 
 .link a {
     color: #8d8c8c;
+    font-weight: bold;
 }
 
 .link a:hover {
