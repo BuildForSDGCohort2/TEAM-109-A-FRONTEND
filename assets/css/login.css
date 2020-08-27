@@ -1,0 +1,111 @@
+*  {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 550px !important;
+}
+
+.subcontainer {
+    margin: 80px auto;
+    text-align: center;
+    align-items: center;
+    /* border: 1px solid #0AB506; */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.user {
+    padding: 50px 0 20px 0;
+}
+
+.user h6{
+    font-size: 18px; 
+    color: #8d8c8c;
+}
+
+.stroke {
+    width: 30px;
+    height: 1px;
+    background-color: #2e532e;
+    margin: auto;
+}
+
+/* i {
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 10px;
+    color: #0AB506;
+    box-shadow: 5px 5px 5px #e1e1e1;
+} */
+
+input {
+    border: none;
+    width: 70%;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px #e1e1e1;
+    font-size: 20px;
+    margin: 15px auto;
+}
+
+.username, .password, .login, .accept {
+    margin: 20px;
+}
+
+::placeholder {
+    color: #8d8c8c;
+}
+
+input:focus {
+    outline: none;
+}
+
+.login input {
+    font-weight: bold;
+    color: #ffffff;
+    padding: none;
+    background-color: #0a8d08;
+}
+
+.login input:hover {
+    background-color: #086e06;
+    
+}
+
+.link a {
+    color: #8d8c8c;
+    font-weight: bold;
+}
+
+.link a:hover {
+    text-decoration: none;
+    color: #0AB506;
+}
+
+/* sign up page */
+.subcontainer {
+    margin: 50px auto 20px auto;
+}
+
+.accept {
+    color: #8d8c8c;
+}
+.accept input {
+    width: 5%;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: none;
+    box-shadow: none;
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+.link p {
+    padding: 20px;
+    color: #8d8c8c;
+}
