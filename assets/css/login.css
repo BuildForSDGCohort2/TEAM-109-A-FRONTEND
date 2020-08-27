@@ -5,7 +5,7 @@
 }
 
 .container {
-    max-width: 500px !important;
+    max-width: 550px !important;
 }
 
 .subcontainer {
@@ -33,14 +33,14 @@
     margin: auto;
 }
 
-i {
+/* i {
     border-radius: 50%;
     background-color: #ffffff;
     padding: 15px;
     margin: 10px;
     color: #0AB506;
     box-shadow: 5px 5px 5px #e1e1e1;
-}
+} */
 
 input {
     /* border: 1px solid #0AB506; */
@@ -53,6 +53,10 @@ input {
     font-size: 20px;
 }
 
+.password, .username, .login, .accept {
+    margin: 20px;
+}
+
 ::placeholder {
     color: #8d8c8c;
 }
@@ -63,8 +67,13 @@ input:focus {
 
 .login input {
     font-weight: bold;
-    color: #8d8c8c;
+    color: #FFFFFF;
     padding: none;
+    background-color: #0a8d08;
+}
+
+.login input:hover {
+    background-color: #086e06;
 }
 
 .link a {
