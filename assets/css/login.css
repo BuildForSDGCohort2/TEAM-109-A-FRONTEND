@@ -57,6 +57,10 @@ input {
     margin: 20px;
 }
 
+.password, .username, .login, .accept {
+    margin: 20px;
+}
+
 ::placeholder {
     color: #8d8c8c;
 }
